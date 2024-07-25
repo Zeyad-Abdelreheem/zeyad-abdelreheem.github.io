@@ -1,5 +1,5 @@
 ---
 category: Programming
-details: C++, Python, Tcl, Matlab, PHP, NodeJS, Dart
+details: C++, Python, Tensorflow, Pytorch, CUDA, Matlab, Shell
 order: 1
 ---
