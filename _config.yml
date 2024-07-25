@@ -2,7 +2,7 @@ name: Zeyad Abdelrahim
 tagline: Machine Learning Researcher
 career-objective: A highly motivated researcher with a demonstrated ability to translate complex machine learning concepts into practical solutions seeks a remote PhD program in Computer Vision, Machine Learning, or Robotics. Possesses strong research experience, having developed high-performance models using TensorFlow and Keras (e.g., 97% accuracy modulation recognition) and implemented RAG-based LLM solutions for clients. Proven ability to collaborate effectively with diverse teams and mentor students. Eager to leverage industry experience (e.g., R&D Data Scientist at Dell Technologies) with a strong academic foundation (M.Sc. in Communications Engineering) to contribute to the advancement of the field.
 color-theme: red # red or blue
-avatar-filename: avatar.png # Change to your avatar's filename
+avatar-filename: my_pic.jpg # Change to your avatar's filename
 url: academicportfolio.github.io
 baseurl: /
 paginate: 5
