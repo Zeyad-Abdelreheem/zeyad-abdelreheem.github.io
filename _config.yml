@@ -25,38 +25,44 @@ social:
 
 # Collections
 collections:
-  experience:
-    output: true
-    sort_by: order
   education:
     output: true
     sort_by: order
+  experience:
+    output: true
+    sort_by: order
+  achievements:
+    output: true
+    sort_by: order
+  publications:
+    output: true
+    sort_by: year
   projects:
     output: true
     sort_by: year
   skills:
     output: true
     sort_by: order
-  publications:
-    output: true
-    sort_by: year
   volunteerexperience:
     output: false
     sort_by: order
   certifications:
     output: true
     sort_by: year
-  achievements:
-    output: true
-    sort_by: order
 
 # About Page Options
 collection_option:
+  education: 
+    label: Education
+    visibility: true
   experience: 
     label: Experience
     visibility: true
-  education: 
-    label: Education
+  achievements: 
+    label: Achievements
+    visibility: true
+  publications: 
+    label: Publications
     visibility: true
   projects: 
     label: Projects
@@ -64,19 +70,12 @@ collection_option:
   skills: 
     label: Technical Skills
     visibility: true
-  publications: 
-    label: Publications
-    visibility: true
   volunteerexperience: 
     label: Volunteer Experience
     visibility: false
   certifications: 
     label: Certifications
     visibility: true
-  achievements: 
-    label: Achievements
-    visibility: true
-
 navigation:
 - title: About
   url: /
