@@ -1,5 +1,5 @@
 ---
-category: Simulation/EDA
-details: MATLAB Simulink, PSpice, Proteus, Intel Quartus Prime, Cadence Virtuoso
+category: Simulation
+details: NS3, NS3-GYM, MATLAB Simulink.
 order: 3
 ---
