@@ -1,5 +1,7 @@
 ---
-title: Runnerup in Hardware Showcase at Mindsparks
-year: 2022
-excerpt: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac sapien vel sem tristique consequat ac eu magna. Nulla condimentum erat quis enim tempor consequat.
+title: AI Capacity Building program– 3rd
+Participated in a hackathon for AI under the supervision of MCIT and Dell.
+My team won the bronze medal for providing an AI solution for water consumption optimization.
+Developed a model that can predict water consumption and automate irrigation for agriculture
+year: 2023
 ---
