@@ -48,7 +48,7 @@ collections:
     sort_by: year
   achievements:
     output: true
-    sort_by: year
+    sort_by: order
 
 # About Page Options
 collection_option:
