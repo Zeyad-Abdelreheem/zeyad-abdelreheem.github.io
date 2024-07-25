@@ -1,0 +1,6 @@
+---
+title: Deep Learning Research Assistant, University of Luebeck in Germany.
+duration: April, 2022 - September, 2022
+excerpt: Developed a high-performance modulation recognition model using TensorFlow and Keras, achieving 97% accuracy on a massive dataset of 2.5 million images. Significantly improved recognition speed by 2x compared to state-of-the-art models through efficient training and automated hyperparameter tuning. Research paper in development was halted due to unforeseen circumstances. 
+order: 2
+---
