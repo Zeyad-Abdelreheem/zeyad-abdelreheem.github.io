@@ -28,11 +28,9 @@ collections:
   education:
     output: true
     sort_by: order
-collections:
   experience:
     output: true
     sort_by: order
-collections:
   achievements:
     output: true
     sort_by: order
