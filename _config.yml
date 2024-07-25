@@ -1,5 +1,5 @@
-name: Arnob Karmokar
-tagline: Electrical and Electronic Engineer
+name: Zeyad Abdelrahim
+tagline: Electrical and Communications Engineer
 career-objective: This is a GitHub Pages template for academic portfolio websites. Fork <a href="https://github.com/academicportfolio/academicportfolio.github.io">this repository</a> to get started. This section will be replaced by your career objective. Read the README of the repository to learn about customizing the site.
 color-theme: red # red or blue
 avatar-filename: avatar.png # Change to your avatar's filename
@@ -12,42 +12,42 @@ paginate_path: "/blog/page:num/"
 social:
   email: 
     visibility: true
-    mail: contact@arnob.me
+    mail: zeyadabdelreheem@gmail.com
   github: 
     visibility: true
-    handle: arnobk
+    handle: zeyad-abdelrahim
   linkedin: 
     visibility: true
-    handle: arnobkarmokar
+    handle: zeyad-omar
   twitter: 
-    visibility: true
-    handle: arnobdotme
+    visibility: false
+    handle: zeyad
 
 # Collections
 collections:
   experience:
-    output: false
+    output: true
     sort_by: order
   education:
-    output: false
+    output: true
     sort_by: order
   projects:
     output: true
     sort_by: year
   skills:
-    output: false
+    output: true
     sort_by: order
   publications:
     output: true
     sort_by: year
   volunteerexperience:
-    output: false
+    output: true
     sort_by: order
   certifications:
-    output: false
+    output: true
     sort_by: year
   achievements:
-    output: false
+    output: true
     sort_by: year
 
 # About Page Options
