@@ -41,7 +41,7 @@ collections:
     output: true
     sort_by: year
   volunteerexperience:
-    output: true
+    output: false
     sort_by: order
   certifications:
     output: true
@@ -69,7 +69,7 @@ collection_option:
     visibility: true
   volunteerexperience: 
     label: Volunteer Experience
-    visibility: true
+    visibility: false
   certifications: 
     label: Certifications
     visibility: true
