@@ -79,10 +79,10 @@ collection_option:
 navigation:
 - title: About
   url: /
-- title: Blog
-  url: /blog/
-- title: Contact
-  url: /contact
+# - title: Blog
+#   url: /blog/
+# - title: Contact
+#   url: /contact
 
 include:
   - _pages
