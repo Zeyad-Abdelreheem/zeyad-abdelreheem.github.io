@@ -5,21 +5,6 @@ layout: default
     {{site.career-objective}}
 </div>
 
-{% if site.collection_option['experience']['visibility'] == true %}
-<div class="ap-line"></div>
-<!-- WORK EXPERIENCE -->
-<div class="ap-block">
-    <p class="ap-subtitle">{{site.collection_option['experience']['label']}}</p>
-    {% for experience in site.experience %}
-    <div class="ap-experience">
-        <p class="ap-experience-title">{{experience.title}}</p>
-        <p class="ap-experience-year">{{experience.duration}}</p>
-        <p class="ap-experience-excerpt">{{experience.excerpt}}</p>
-    </div>
-    {% endfor %}
-</div>
-{% endif %}
-
 {% if site.collection_option['education']['visibility'] == true %}
 <div class="ap-line"></div>
 <!-- EDUCATION -->
@@ -37,19 +22,51 @@ layout: default
 </div>
 {% endif %}
 
-{% if site.collection_option['skills']['visibility'] == true %}
+{% if site.collection_option['experience']['visibility'] == true %}
 <div class="ap-line"></div>
-<!-- SKILLS -->
+<!-- WORK EXPERIENCE -->
 <div class="ap-block">
-    <p class="ap-subtitle">{{site.collection_option['skills']['label']}}</p>
-    {% for skill in site.skills %}
-    <div class="ap-skill">
-        <p class="ap-skill-category">{{skill.category}}</p>
-        <p class="ap-skill-details">{{skill.details}}</p>
+    <p class="ap-subtitle">{{site.collection_option['experience']['label']}}</p>
+    {% for experience in site.experience %}
+    <div class="ap-experience">
+        <p class="ap-experience-title">{{experience.title}}</p>
+        <p class="ap-experience-year">{{experience.duration}}</p>
+        <p class="ap-experience-excerpt">{{experience.excerpt}}</p>
     </div>
     {% endfor %}
 </div>
 {% endif %}
+
+{% if site.collection_option['publications']['visibility'] == true %}
+<div class="ap-line"></div>
+<!-- PUBLICATIONS -->
+<div class="ap-block">
+    <p class="ap-subtitle">{{site.collection_option['publications']['label']}}</p>
+    {% for publication in site.publications reversed %}
+    <div class="ap-publication">
+        <a class="ap-publication-title" href="{{publication.url}}">{{publication.title}}</a>
+        <p class="ap-publication-year">{{publication.year}}</p>
+        <p class="ap-publication-excerpt">{{publication.excerpt}}</p>
+    </div>
+    {% endfor %}
+</div>
+{% endif %}
+
+{% if site.collection_option['achievements']['visibility'] == true %}
+<div class="ap-line"></div>
+<!-- ACHIEVEMENTS -->
+<div class="ap-block">
+    <p class="ap-subtitle">{{site.collection_option['achievements']['label']}}</p>
+    {% for achievement in site.achievements reversed %}
+    <div class="ap-achievement">
+        <p class="ap-achievement-title">{{achievement.title}}</p>
+        <p class="ap-achievement-year">{{achievement.year}}</p>
+        <p class="ap-achievement-excerpt">{{achievement.excerpt}}</p>
+    </div>
+    {% endfor %}
+</div>
+{% endif %}
+
 
 {% if site.collection_option['projects']['visibility'] == true %}
 <div class="ap-line"></div>
@@ -72,20 +89,6 @@ layout: default
 </div>
 {% endif %}
 
-{% if site.collection_option['publications']['visibility'] == true %}
-<div class="ap-line"></div>
-<!-- PUBLICATIONS -->
-<div class="ap-block">
-    <p class="ap-subtitle">{{site.collection_option['publications']['label']}}</p>
-    {% for publication in site.publications reversed %}
-    <div class="ap-publication">
-        <a class="ap-publication-title" href="{{publication.url}}">{{publication.title}}</a>
-        <p class="ap-publication-year">{{publication.year}}</p>
-        <p class="ap-publication-excerpt">{{publication.excerpt}}</p>
-    </div>
-    {% endfor %}
-</div>
-{% endif %}
 
 {% if site.collection_option['volunteerexperience']['visibility'] == true %}
 <div class="ap-line"></div>
@@ -97,6 +100,20 @@ layout: default
         <p class="ap-experience-title">{{experience.title}}</p>
         <p class="ap-experience-year">{{experience.duration}}</p>
         <p class="ap-experience-excerpt">{{experience.excerpt}}</p>
+    </div>
+    {% endfor %}
+</div>
+{% endif %}
+
+{% if site.collection_option['skills']['visibility'] == true %}
+<div class="ap-line"></div>
+<!-- SKILLS -->
+<div class="ap-block">
+    <p class="ap-subtitle">{{site.collection_option['skills']['label']}}</p>
+    {% for skill in site.skills %}
+    <div class="ap-skill">
+        <p class="ap-skill-category">{{skill.category}}</p>
+        <p class="ap-skill-details">{{skill.details}}</p>
     </div>
     {% endfor %}
 </div>
@@ -114,21 +131,6 @@ layout: default
         <p class="ap-certification-institute">{{certificate.institute}}</p>
         <p class="ap-certification-year">{{certificate.year}}</p>
         <p class="ap-certification-excerpt">{{certificate.excerpt}}</p>
-    </div>
-    {% endfor %}
-</div>
-{% endif %}
-
-{% if site.collection_option['achievements']['visibility'] == true %}
-<div class="ap-line"></div>
-<!-- ACHIEVEMENTS -->
-<div class="ap-block">
-    <p class="ap-subtitle">{{site.collection_option['achievements']['label']}}</p>
-    {% for achievement in site.achievements reversed %}
-    <div class="ap-achievement">
-        <p class="ap-achievement-title">{{achievement.title}}</p>
-        <p class="ap-achievement-year">{{achievement.year}}</p>
-        <p class="ap-achievement-excerpt">{{achievement.excerpt}}</p>
     </div>
     {% endfor %}
 </div>
