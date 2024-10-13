@@ -182,8 +182,10 @@ a:hover {
     font-size: 16px;
 }
 
-.ap-project {
-    margin: 16px 0px;
+.ap-projects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns as needed */
+    gap: 16px; /* Adjust the gap between projects */
 }
 
 .ap-project-title {
