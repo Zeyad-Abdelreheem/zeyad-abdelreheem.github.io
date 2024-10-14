@@ -45,7 +45,7 @@ layout: default
 <div class="ap-projects-grid">
     {% for project in site.projects reversed %}
     <div class="ap-project">
-        <a class="ap-project-title" href="{{project.url}}">{{project.title}}</a>
+        <a class="ap-project-title" href="{{project.project-url}}">{{project.title}}</a>
         <!--<p class="ap-project-year">{{project.year}}</p>-->
         <p class="ap-project-excerpt">{{project.excerpt}}</p>
         <img class="ap-project-image" src={{"assets/images/" | append: project.project-image}}
