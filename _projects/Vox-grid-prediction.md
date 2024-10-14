@@ -1,5 +1,5 @@
 ---
-title: 3D-R2N2: A Uni ed Approach for Single and Multi-view 3D Object Reconstruction
+title: 3D-R2N2: A Unifed Approach for Single and Multi-view 3D Object Reconstruction
 layout: project 
 year: experiment replication
 project-url: TBA
