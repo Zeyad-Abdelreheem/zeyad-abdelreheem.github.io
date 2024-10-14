@@ -39,7 +39,7 @@ collections:
     sort_by: year
   projects:
     output: true
-    sort_by: year
+    sort_by: order
   skills:
     output: true
     sort_by: order
