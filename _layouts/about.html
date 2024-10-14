@@ -9,7 +9,7 @@ layout: default
 <div class="ap-line"></div>
 <!-- EDUCATION -->
 <div class="ap-block">
-    <p class="ap-subtitle">{{site.collection_option['education']['label']}}</p>
+    <p class="ap-subtitle">{{site.collection_option['education']['label']}}</p> 
     {% for education in site.education %}
     <div class="ap-education">
         <p class="ap-education-degree">{{education.degree}}</p>
@@ -41,18 +41,18 @@ layout: default
 
 {% if site.collection_option['projects']['visibility'] == true %}
 <div class="ap-line"></div>
-<div class="ap-block ap-projects">
-    <p class="ap-subtitle">{{site.collection_option['projects']['label']}}</p>
+<p class="ap-subtitle">{{site.collection_option['projects']['label']}}</p>
+<div class="ap-projects-grid">
     {% for project in site.projects reversed %}
     <div class="ap-project">
         <a class="ap-project-title" href="{{project.url}}">{{project.title}}</a>
-        <p class="ap-project-year">{{project.year}}</p>
+        <!--<p class="ap-project-year">{{project.year}}</p>-->
         <p class="ap-project-excerpt">{{project.excerpt}}</p>
-        <p class="ap-project-tags">
+        <!--<p class="ap-project-tags">
             {% for tag in project.tags %}
             <span class="ap-project-chip">{{tag}}</span>
             {% endfor %}
-        </p>
+        </p> -->
     </div>
     {% endfor %}
 </div>
