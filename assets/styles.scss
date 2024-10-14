@@ -184,8 +184,8 @@ a:hover {
 
 .ap-projects-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns as needed */
-    gap: 16px; /* Adjust the gap between projects */
+    grid-template-columns: auto auto auto; /* Adjust the number of columns as needed */
+    gap: 10px 10px; /* Adjust the gap between projects */
 }
 
 .ap-project-title {
