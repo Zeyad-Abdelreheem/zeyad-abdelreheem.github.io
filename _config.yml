@@ -65,7 +65,7 @@ collection_option:
     label: Publications
     visibility: true
   projects: 
-    label: Projects
+    label: Projects ("What I can not create I do not understand", R.F)
     visibility: true
   skills: 
     label: Technical Skills
