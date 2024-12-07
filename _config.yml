@@ -106,13 +106,13 @@ defaults:
       permalink: /projects/:title
       layout: project
       comments: false
-  - scope:
-      path: ''
-      type: publications
-    values:
-      permalink: /publications/:title
-      layout: publication
-      comments: false
+  # - scope:
+  #     path: ''
+  #     type: publications
+  #   values:
+  #     permalink: /publications/:title
+  #     layout: publication
+  #     comments: false
 
 # Disqus Comment
 disqus:
