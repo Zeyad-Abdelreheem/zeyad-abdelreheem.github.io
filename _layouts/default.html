@@ -35,6 +35,9 @@
                 {% if site.social['twitter']['visibility'] == true %}<li><a
                         href="https://twitter.com/{{site.social['twitter']['handle']}}" target="_blank">Twitter</a></li>
                 {% endif %}
+                {% if site.social['scholar']['visibility'] == true %}<li><a
+                        href="https://scholar.google.com/{{site.social['twitter']['handle']}}" target="_blank">Google Scholar</a></li>
+                {% endif %}
             </ul>
         </div>
         <nav class="ap-nav">
@@ -68,6 +71,10 @@
                     {% if site.social['twitter']['visibility'] == true %}<li><a
                             href="https://twitter.com/{{site.social['twitter']['handle']}}" target="_blank">Twitter</a>
                     </li>{% endif %}
+                    {% if site.social['scholar']['visibility'] == true %}<li><a
+                        href="https://scholar.google.com/{{site.social['twitter']['handle']}}" target="_blank">Google Scholar</a></li>
+                    {% endif %}
+                    
                 </ul>
             </div>
             <div class="ap-copyright">&copy Copyright 2023</div>
