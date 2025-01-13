@@ -22,7 +22,10 @@ social:
   twitter: 
     visibility: false
     handle: zeyad
-
+  scholar:
+    visibility: true
+    handle: citations?user=87syn-oAAAAJ&hl=en
+    
 # Collections
 collections:
   education:
