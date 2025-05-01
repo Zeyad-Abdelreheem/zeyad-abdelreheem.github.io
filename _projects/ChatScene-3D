@@ -2,7 +2,7 @@
 title: Chat-Scene: Bridging 3D Scene and Large Language Models with Object Identifiers
 layout: project 
 year: experiment replication
-project-url: TBA
+project-url: https://github.com/ZzZZCHS/Chat-SceneTBA
 excerpt: Re-implemented the experiments done in this paper (https://arxiv.org/abs/2312.08168). By employing object identifiers, the authors transformed diverse 3D scene-language tasks into a unified question-answering format, facilitating joint training without the need for additional task-specific heads. With minimal fine-tuning on all downstream tasks, the model significantly outperformed existing methods on benchmarks including ScanRefer, Multi3DRefer, Scan2Cap, ScanQA, and SQA3D.
 project-image: chat-scene-3D.png 
 tags: [Pytorch, 3D-vision, 3D-Scene-Understanding]
