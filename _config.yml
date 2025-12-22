@@ -99,7 +99,7 @@ defaults:
       path: ''
       type: posts
     values:
-      permalink: :url
+      permalink: :posturl
       layout: post
       comments: true
   - scope:
