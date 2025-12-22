@@ -9,7 +9,7 @@ layout: default
         <!-- <p class="ap-blog-timestamp">{{ post.date | date: "%b %-d, %Y" }}</p> -->
         <!-- <img class="ap-blog-image" src={{"assets/images/" | append: post.postimage}}
                 alt="Post Image for {{post.title}}"> -->
-        <img class="ap-blog-image" src="{{ 'assets/images/' | append: post.postimage }}" alt="Post Image for blog "{{post.title}}">
+        <img class="ap-blog-image" src="{{ '../assets/images/' | append: post.postimage }}" alt="Post Image for blog "{{post.title}}">
         <p class="ap-blog-excerpt">{{post.excerpt}}</p>
     </div>
     {% endfor %}
