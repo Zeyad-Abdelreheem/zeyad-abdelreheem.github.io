@@ -1,27 +1,7 @@
 ---
-title: My First Post
+title: LLMs Are Mountains of Knowledge — We Just Need to Find the Peaks
 layout: post
-category: Uncategorized
-excerpt: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac sapien vel sem tristique consequat ac eu magna. Nulla condimentum erat quis enim tempor consequat.
-featured: https://placehold.co/600x400
+category: AI Reiforcement Learning Post-Training LLMs 
+excerpt: In this post, I explained my intuition/understanding of the difference between RL/SFT when finetuning a pretrained model, trying to understand why RL generalizes while SFT seems to memorize.
+featured: https://medium.com/@zeyadomar.4217/llms-are-mountains-of-knowledge-we-just-need-to-find-the-peaks-f74140c6f867
 ---
-
-## Heading 2
-
-### Heading 3
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac sapien vel sem tristique consequat ac eu magna. Nulla condimentum erat quis enim tempor consequat.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac sapien vel sem tristique consequat ac eu magna. Nulla condimentum erat quis enim tempor consequat.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac sapien vel sem tristique consequat ac eu magna. Nulla condimentum erat quis enim tempor consequat.
-
-> Hello World
-
-```python
-print("Hello World!")
-```
-
-| Column 1 | Column Two |
-|---|---|
-|Key 1 | Value 1|
-|Key 2 | Value 2|
