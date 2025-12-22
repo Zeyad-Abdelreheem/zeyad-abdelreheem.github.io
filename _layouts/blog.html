@@ -5,7 +5,7 @@ layout: default
 <div class="ap-block">
     {% for post in paginator.posts %}
     <div class="ap-blog-post">
-        <a class="ap-blog-title" href="{{ post.url }}">{{ post.title}}</a>
+        <a class="ap-blog-title" href="{{post.url}}">{{ post.title}}</a>
         <p class="ap-blog-timestamp">{{ post.date | date: "%b %-d, %Y" }}</p>
         <p class="ap-blog-excerpt">{{post.excerpt}}</p>
     </div>
