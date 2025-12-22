@@ -82,8 +82,8 @@ collection_option:
 navigation:
 - title: About
   url: /
-# - title: Blog
-#   url: /blog/
+- title: Blogs
+  url: /blog/
 # - title: Contact
 #   url: /contact
 
