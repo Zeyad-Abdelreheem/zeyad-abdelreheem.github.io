@@ -99,7 +99,7 @@ defaults:
       path: ''
       type: posts
     values:
-      permalink: /:categories/:year/:month/:title
+      permalink: :url
       layout: post
       comments: true
   - scope:
