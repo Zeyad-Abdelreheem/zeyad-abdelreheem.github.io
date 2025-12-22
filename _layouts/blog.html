@@ -6,7 +6,9 @@ layout: default
     {% for post in paginator.posts %}
     <div class="ap-blog-post">
         <a class="ap-blog-title" href="{{ post.posturl }}">{{ post.title}}</a>
-        <p class="ap-blog-timestamp">{{ post.date | date: "%b %-d, %Y" }}</p>
+        <!-- <p class="ap-blog-timestamp">{{ post.date | date: "%b %-d, %Y" }}</p> -->
+        <img class="ap-blog-image" src={{"assets/images/" | append: post.postimage}}
+                alt="Post Image for {{post.title}}">
         <p class="ap-blog-excerpt">{{post.excerpt}}</p>
     </div>
     {% endfor %}
